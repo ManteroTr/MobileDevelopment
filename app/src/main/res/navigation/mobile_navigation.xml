@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.stehovva.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.stehovva.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.stehovva.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_browser"
+        android:name="ru.mirea.stehovva.mireaproject.Browser"
+        android:label="fragment_browser"
+        tools:layout="@layout/fragment_browser" />
+    <fragment
+        android:id="@+id/nav_worker"
+        android:name="ru.mirea.stehovva.mireaproject.worker"
+        android:label="fragment_worker"
+        tools:layout="@layout/fragment_worker" />
+    <fragment
+        android:id="@+id/nav_accelerometer"
+        android:name="ru.mirea.stehovva.mireaproject.nav_accelerometer"
+        android:label="fragment_nav_accelerometer"
+        tools:layout="@layout/fragment_nav_accelerometer" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.stehovva.mireaproject.nav_camera"
+        android:label="fragment_nav_camera"
+        tools:layout="@layout/fragment_nav_camera" />
+    <fragment
+        android:id="@+id/nav_micro"
+        android:name="ru.mirea.stehovva.mireaproject.nav_micro"
+        android:label="fragment_nav_micro"
+        tools:layout="@layout/fragment_nav_micro" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="ru.mirea.stehovva.mireaproject.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/workWithFiles"
+        android:name="ru.mirea.stehovva.mireaproject.workWithFiles"
+        android:label="fragment_work_with_files"
+        tools:layout="@layout/fragment_work_with_files" />
+</navigation>
